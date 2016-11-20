@@ -10,7 +10,7 @@ uses
   { you can add units after this };
    type Vector=array[word] of char; 
    var  A:vector; n:integer; 
-     t:char;
+     t:char.;
    Procedure Create(var arr:vector); 
    var i:integer;
    begin
@@ -66,5 +66,5 @@ if BinarySearch(A, t)=-1 then
  else
 writeln('index: ',BinarySearch(A, t));
 
-readln;
+readln
 end.                        
